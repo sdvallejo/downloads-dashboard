@@ -1,0 +1,10 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.navbar-nav a.active {
+    font-weight: bolder;
+    color: #fff !important;
+}
