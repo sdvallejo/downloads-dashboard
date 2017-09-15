@@ -9,5 +9,5 @@ func main() {
 	http.HandleFunc("/downloads/by-country", DownloadsByCountry)
 	http.HandleFunc("/downloads/by-time", DownloadsByTime)
 	http.HandleFunc("/downloads/by-appid", DownloadsByAppID)
-	http.ListenAndServe(":8000", nil)
+	http.ListenAndServe(":8001", nil)
 }
