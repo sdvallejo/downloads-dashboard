@@ -11,6 +11,8 @@ The best way to run this app is using my docker container:
 
 `sudo docker run -p 8000:8000 -p 8001:8001 svallejo/downloads-dashboard`
 
+When the container is running you can access to the frontend using this link: [http://localhost:8000](http://localhost:8000)
+
 This app is only a demo, so it doesn't need an external volume and includes the data for testing it.
 
 ## Expansion
